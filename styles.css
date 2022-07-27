@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Courier New', 'Yantramanav', sans-serif;
+}
+
+
+body {
+    background: #000000;
+
+}
+
+h1 {
+    font-family: 'Khula', sans-serif;
+    font-size: 40px;
+    color: #fcc438;
+}
+
+h2 {
+    font-family: 'Khula', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+}
+a {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    color: #4c9452;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+a:hover {
+    color: #000000;
+    font-size: 20.5px;
+    font-weight: 900;
+    box-shadow: 5px 3px #000000;
+}
+.container {
+    text-align: center;
+    border: solid 2px #000000;
+    margin: 40px;
+    border-radius: 19% 81% 23% 77% / 51% 63% 37% 49%;
+    padding: 10px;
+    color: #000000;
+    background-color: aliceblue;
+}
+
+.box-container {
+    width: 350px;
+    height: auto;
+    padding: 100px;
+    margin: 30px;
+}
+
+.head-container {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+span:hover {
+    color: #4c9452;
+    transition-duration: 1.2s;
+}
+
+/* Colors CSS section*/
+.color {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    color: white;
+
+
+}
+
+
+#color-1 {
+    background: #000000;
+    border-radius: 26% 74% 11% 89% / 37% 70% 30% 63%;
+    transition: 1.2s ease-in;
+}
+#color-1:hover {
+    box-shadow: -10px -15px #969696;
+    border-radius: 53% 47% 75% 25% / 50% 34% 66% 50%;
+}
+#color-2 {
+    background: #4c9452;
+    border-radius: 53% 47% 75% 25% / 50% 34% 66% 50%;
+    transition: 1.2s ease-in;
+}
+#color-2:hover {
+    box-shadow: -10px -15px #346b48;
+    border-radius: 81% 19% 45% 55% / 82% 30% 70% 18%;
+}
+
+#color-3 {
+    background: #fcc438;
+    border-radius: 81% 19% 45% 55% / 82% 30% 70% 18%;
+    transition: 1.2s ease-in;
+}
+#color-3:hover {
+    box-shadow: -10px -15px #d1a32f;
+    border-radius: 80% 20% 53% 47% / 66% 52% 48% 34%;
+}
+
+/*Fonts CSS section*/
+.fonts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: left;
+}
+#font-1 {
+    font-family: 'Khula', sans-serif;
+    border-radius: 60% 19% 35% 10% / 55% 30% 50% 18%;
+    background-color: #fcc438;
+    transition: 1.3s ease-in;
+}
+
+#font-1:hover {
+    border-radius: 87% 13% 64% 36% / 80% 29% 71% 20%;
+}
+#font-2 {
+    font-family: 'Yantramanav', sans-serif;
+    border-radius: 70% 30% 29% 55% / 87% 40% 63% 12%;
+    background-color: #fcc438;
+    transition: 1.3s ease-in;
+
+}
+#font-2:hover {
+    border-radius: 44% 56% 20% 80% / 27% 29% 71% 73%;
+}
+
+#font-3 {
+    font-family: 'Hubballi', cursive;
+    border-radius: 16% 84% 28% 72% / 47% 63% 37% 53%;
+    background-color: #fcc438;
+    transition: 1.3s ease-in;
+
+}
+
+#font-3:hover {
+    border-radius: 74% 26% 51% 49% / 61% 29% 71% 39%;
+}
+
+#font-1 h3, #font-2 h3, #font-3 h3 {
+    color: #fcc438;
+    background-color: #000000;
+}
+
+/*Styles CSS section*/
+.styles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: left;
+
+}
+#style-1 {
+    font-family: 'Khula', sans-serif;
+    border-radius: 18% 82% 77% 23% / 23% 74% 26% 77%;
+    background-color: #4c9452;
+    transition: 1.3s ease-in;
+}
+
+#style-1:hover {
+    border-radius: 67% 33% 35% 65% / 35% 44% 56% 65%;
+
+}
+
+#style-1 h1, #style-2 h2, #style-3 h3, #style-4 h3 {
+    color: #4c9452;
+    background-color: #000000;
+}
+
+#style-2 {
+    font-family: 'Khula', sans-serif;
+    border-radius: 13% 87% 74% 26% / 23% 18% 82% 77% ;
+    background-color: #4c9452;
+    transition: 1.3s ease-in;
+}
+
+#style-2:hover {
+    border-radius: 58% 42% 74% 26% / 63% 18% 82% 37% ;
+
+}
+
+
+
+#style-3 {
+    font-family: 'Yantramanav', sans-serif;
+    border-radius: 67% 33% 55% 45% / 23% 74% 26% 77%;
+    background-color: #4c9452;
+    transition: 1.3s ease-in;
+}
+
+#style-3:hover {
+    border-radius: 35% 65% 31% 69% / 63% 72% 28% 37% ;
+
+}
+
+#style-4 {
+    font-family: 'Yantramanav', sans-serif;
+    border-radius: 13% 87% 11% 89% / 23% 74% 26% 77% ;
+    background-color: #4c9452;
+    transition: 1.3s ease-in;
+}
+
+#style-4:hover {
+    border-radius: 37% 63% 63% 37% / 76% 22% 78% 24%;
+
+}
+/*Footer CSS section*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10% 56% 10% 27% / 66% 80% 100% 34%;
+    background-color: #fcc438;
+    text-align: center;
+}
